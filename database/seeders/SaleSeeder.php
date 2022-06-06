@@ -46,7 +46,7 @@ class SaleSeeder extends Seeder
 
         DB::table('sale')->insert([
             'cliente' => 'Juan Perez',
-            'nit' => '123456789',
+            'nit' => '5253456789',
             'total' => '200.00',
             'cancelado' => '120.00',
             'Cambio' => '80.00',
@@ -55,12 +55,12 @@ class SaleSeeder extends Seeder
         ]);   
 
         DB::table('sale')->insert([
-            'cliente' => 'ROberto Perez',
+            'cliente' => 'Roberto Perez',
             'nit' => '5251789',
             'total' => '10.00',
             'cancelado' => '8.00',
             'Cambio' => '2.00', 
-              'estado' => '1'
+            'estado' => '1'
 
         ]);   
     }

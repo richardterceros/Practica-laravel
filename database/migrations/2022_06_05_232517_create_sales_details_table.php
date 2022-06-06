@@ -17,7 +17,6 @@ class CreateSalesDetailsTable extends Migration
             $table->id('id_detalle');
             $table->unsignedBigInteger('id_venta');
             $table->unsignedBigInteger('id_producto');
-            $table->string('cliente',35);
             $table->decimal('precio',15,2);
             $table->string('cantidad',11);
             $table->decimal('subtotal',15,0);

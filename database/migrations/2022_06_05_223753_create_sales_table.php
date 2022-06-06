@@ -15,7 +15,7 @@ class CreateSalesTable extends Migration
     {
         Schema::create('sales', function (Blueprint $table) {
             $table->id('id_venta');
-            $table->string('cliente',35);
+            $table->string('cliente',50);
             $table->string('nit');
             $table->decimal('total',15,2);
             $table->decimal('cancelado',15,2);

@@ -20,7 +20,7 @@ class Sale_DetailSeeder extends Seeder
             'precio' => '0.50',
             'cantidad' => '2',
             'subtotal' => '1.00',
-            'fecha' => '2020-06-05',
+            'fecha' => '2020-04-05',
             'hora' => '23:25:17',
             'estado' => '1'
         ]);
@@ -31,7 +31,7 @@ class Sale_DetailSeeder extends Seeder
             'precio' => '5.50',
             'cantidad' => '3',
             'subtotal' => '17.00',
-            'fecha' => '2020-06-05',
+            'fecha' => '2020-10-1',
             'hora' => '23:25:17',
             'estado' => '1'
         ]);
@@ -42,7 +42,7 @@ class Sale_DetailSeeder extends Seeder
             'precio' => '10.00',
             'cantidad' => '1',
             'subtotal' => '10.00',
-            'fecha' => '2020-06-05',
+            'fecha' => '2020-06-01',
             'hora' => '23:25:17',
             'estado' => '1'
         ]);
@@ -53,7 +53,7 @@ class Sale_DetailSeeder extends Seeder
             'precio' => '120.00',
             'cantidad' => '1',
             'subtotal' => '120.00',
-            'fecha' => '2020-06-05',
+            'fecha' => '2020-09-02',
             'hora' => '23:25:17',
             'estado' => '1'
         ]);
@@ -64,7 +64,7 @@ class Sale_DetailSeeder extends Seeder
             'precio' => '8.00',
             'cantidad' => '1',
             'subtotal' => '8.00',
-            'fecha' => '2020-06-05',
+            'fecha' => '2020-08-03',
             'hora' => '23:25:17',
             'estado' => '1'
         ]);

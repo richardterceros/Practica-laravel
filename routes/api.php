@@ -24,3 +24,10 @@ Route::get('sales/list',[SaleController::class, 'list']);
 Route::get('sales/show/{sale}',[SaleController::class, 'show']);
 Route::delete('sales/{sale}',[SaleController::class, 'delete']);
 Route::put('sales/{sale}',[SaleController::class, 'update']);
+
+
+Route::post('saledetails/create',[SaleController::class, 'create']);
+Route::get('saledetails/list',[SaleController::class, 'list']);
+Route::get('saledetails/show/{saledetail}',[SaleController::class, 'show']);
+Route::delete('saledetails/{saledetail}',[SaleController::class, 'delete']);
+Route::put('saledetails/{saledetail}',[SaleController::class, 'update']);

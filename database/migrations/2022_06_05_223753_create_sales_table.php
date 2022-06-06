@@ -34,6 +34,8 @@ class CreateSalesTable extends Migration
      */
     public function down()
     {
+        Schema::disableForeignKeyConstraints();
         Schema::dropIfExists('sales');
+        Schema::enableForeignKeyConstraints();
     }
 }

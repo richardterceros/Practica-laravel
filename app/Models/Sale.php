@@ -31,7 +31,7 @@ class Sale extends Model
         $sale->fecha = $request->input('fecha');
         $sale->hora = $request->input('hora');
         $sale->estado = 1;
-     
+
         $sale->save();
     }
 
